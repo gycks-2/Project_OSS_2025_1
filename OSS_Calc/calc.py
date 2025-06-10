@@ -89,9 +89,3 @@ class Calculator:
         self.entry.delete(0, tk.END)
         self.entry.insert(tk.END, self.expression)
 
-
-# Main application entry point
-if __name__ == "__main__":
-    root = tk.Tk()
-    calc = Calculator(root)
-    root.mainloop()
